@@ -1,0 +1,13 @@
+{"timestamp":"2026-09-03T17:33:39.050440Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-09-03T17:33:39.055130Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-09-03T17:33:39.128232Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/test.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-09-03T17:33:39.250865Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.253951Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.255835Z","level":"info","event":"Current task name:transform_data","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.257817Z","level":"info","event":"Dag name:ui_demo_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.274514Z","level":"info","event":"Transforming Data","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.276616Z","level":"info","event":"Data transformed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.274563Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2026-09-03T17:33:39.352712Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.357992Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-09-03T17:33:39.361457Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_data>","logger":"task.stdout"}
