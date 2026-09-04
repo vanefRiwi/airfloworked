@@ -8,7 +8,7 @@ docker compose up airflow-init   (inicializa el set up, crea containers y los in
 
 despues en visual 
 
-docker compose up -d
+docker compose up -d   (now we are composing the rest of the containers)
 
 segun ya eso levanto todo 
 
