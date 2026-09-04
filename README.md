@@ -4,7 +4,7 @@ crear `.env` con esta info
 AIRFLOW_UID=5000
 ```
 
-docker compose up airflow-init
+docker compose up airflow-init   (inicializa el set up, crea containers y los inicializa)
 
 despues en visual 
 
